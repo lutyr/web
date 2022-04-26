@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Fenwick";
+	src: url("/styles/fonts/FenwickWoodtype.woff2") format("woff2"),
+			 url("/styles/fonts/FenwickWoodtype.woff") format("woff"),
+			 url("/styles/fonts/FenwickWoodtype.ttf") format("ttf");
+}
