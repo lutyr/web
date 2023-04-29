@@ -8,7 +8,7 @@ module.exports = {
         fenwick: ["Fenwick", "cursive"],
       },
       backgroundImage: {
-        hero: "linear-gradient(to bottom, var(--tw-gradient-stops)), url('/images/roudarit.jpeg')",
+        hero: "linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0, 1) 90%), url('/images/spere.jpeg')",
       },
     },
   },
