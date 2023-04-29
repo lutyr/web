@@ -1,6 +1,6 @@
 module.exports = (conf) => {
   conf.addPassthroughCopy("src/styles/fonts");
-  conf.addPassthroughCopy("src/images")
+  conf.addPassthroughCopy("src/images");
   return {
     htmlTemplateEngine: "liquid",
     dir: {
