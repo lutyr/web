@@ -9,7 +9,7 @@
     "dev": "run-p dev:*",
     "build:css": "NODE_ENV=production npx tailwindcss -i src/styles/tailwind.css -o _site/styles/main.css -m",
     "build:11ty": "eleventy",
-    "build": " run-s build:*"
+    "build": " run-s build:* && cp _redirects ./_site/"
   },
   "repository": {
     "type": "git",
@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/lutyr/web#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-img": "^2.0.0",
+    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy-img": "^2.0.1",
     "@rvxlab/tailwind-plugin-ios-full-height": "^1.1.0",
     "npm-run-all": "^4.1.5",
-    "prettier": "^2.6.2",
-    "tailwindcss": "^3.0.23"
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.4.17"
   }
 }
